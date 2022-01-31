@@ -1,0 +1,84 @@
+/*body  
+{
+  background-image: url("../img/ramada3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}*/
+
+
+
+
+
+div.divmas {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.div1 {
+  
+  position: absolute;
+  left: 10px;
+  width: 100px;
+  height: 120px;
+  /*border: 3px solid blue;*/
+}
+
+.div2 {
+  
+  position: absolute;
+  left: 230px;
+  width: 200px;
+  height: 150px;
+  /* border: 3px solid green;  */
+}
+
+.div4
+{
+  position: absolute;
+  left: 480px;
+  width: 200px;
+  height: 150px;
+}
+
+
+.div3 {
+  
+  position: absolute;
+  left: 750px;
+  width: 200px;
+  height: 150px;
+  /* border: 3px solid green;  */
+}
+
+
+
+
+
+
+.con {
+  position: relative;
+  width: 100%;
+}
+
+
+.con img {
+  width: 100%;
+  height: 600px;
+  padding-top: 0px;
+}
+
+.con h1 {
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 20PX;;
+  
+}
+
+
+

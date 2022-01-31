@@ -1,0 +1,54 @@
+.center {
+    margin: auto;
+    width: 100%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  
+  button {
+      font-size: 15px;
+      letter-spacing: 2px;
+      font-weight: 100 !important;
+      background-color: #185ADB;
+      color: #fff;
+      padding: 23px 50px;
+      margin: auto;
+      text-align: center;
+      display: inline-block !important;
+      text-decoration: none;
+      border: 0px;
+      width: 200px;
+      cursor: pointer;
+      transition: all 0.3s 0s ease-in-out;
+  }
+  
+  button:hover {
+      transform: scale(1.04, 1);
+      background-color: #2541B2;
+      text-decoration: none;
+      
+  }
+  
+  /* add extra functionality in button*/
+  
+  
+  /*button sizes*/
+  .btn_sm {
+      padding: 17px 40px !important;
+  }
+  
+  .btn_md {
+      padding: 20px 50px !important;
+  }
+  
+  .btn_lg {
+      padding: 23px 60px !important;
+  }
+  
+  
+  /*make your button block level*/
+  .btn_block {
+      width: 100% !important;
+      padding: 22px 30px !important;
+  }
+  

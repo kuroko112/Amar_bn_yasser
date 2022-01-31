@@ -1,0 +1,14 @@
+SELECT day,  name, name_lec, name_doc,  time_lec, room_name_lec, name_sec, name_ass, time_sec, name_room, Number_sec  FROM students 
+
+JOIN  mission  ON  mission.id_sec_miss = students.id_sec 
+
+JOIN assistant ON assistant.id_ass = mission.id_ass_miss
+
+
+JOIN professor ON professor.id_doc = mission.id_doc_miss
+
+JOIN sec ON sec.id = mission.id_sec_miss
+
+JOIN lecture ON lecture.id_lec = mission.id_lec_miss
+
+WHERE students.id_stu = 1

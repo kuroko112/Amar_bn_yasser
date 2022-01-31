@@ -1,0 +1,4 @@
+SELECT * FROM students JOIN professor on professor.id = students.id_doc where professor.id = 1-> varibles
+
+
+<?php include('error.php'); ?>
